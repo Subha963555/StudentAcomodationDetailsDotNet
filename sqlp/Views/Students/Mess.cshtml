@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Mess</title>
+    <!-- Add Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Add Font Awesome CSS for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #495057;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .card {
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+            .card:hover {
+                transform: scale(1.05);
+            }
+
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            color: #007bff;
+        }
+
+        .card-text {
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="mt-5 text-center">Add Mess</h1>
+        <p class="lead text-center">Contact the mess owner and explore more options.</p>
+
+        <!-- Mess Owner Details Section -->
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-user"></i> Mess Owner Details</h5>
+                        <p class="card-text"><strong>Name:</strong> Prakash Kumar</p>
+                        <p class="card-text"><strong>Contact Number:</strong> +91 1234567890</p>
+                        <p class="card-text"><strong>Email:</strong> abc@example.com</p>
+                        <p class="card-text"><strong>Location:</strong> Bh2 Hostel, ABC Street, Phagwara</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Content Section -->
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <h2>Additional Content</h2>
+                <p>This section can include additional information about the mess, such as special offers, menu options, meal plans, etc.</p>
+                <p>Special offers: Avail special discounts on monthly subscriptions.</p>
+                <p>Menu options: Choose from a variety of cuisines including Indian, Chinese, Continental, etc.</p>
+                <p>Meal plans: We offer flexible meal plans to suit your needs, whether you're a student or a working professional.</p>
+            </div>
+        </div>
+
+        <!-- Contact Form Section -->
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <h2>Contact Mess Owner</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Bootstrap JS and jQuery Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

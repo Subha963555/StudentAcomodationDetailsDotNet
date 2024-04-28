@@ -1,0 +1,162 @@
+
+@{
+    ViewData["Title"] = "Prospector";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <!-- Add Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Add Font Awesome CSS for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #495057;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .card {
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+            .card:hover {
+                transform: scale(1.05);
+            }
+
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            color: #007bff;
+        }
+
+        .card-text {
+            color: #6c757d;
+        }
+
+        .carousel-inner img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        /* Custom styling for video cards */
+        .video-card {
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .video-card-body {
+            padding: 15px;
+        }
+
+        .video-title {
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+        }
+
+        .video-embed {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 1px solid #dee2e6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="mt-5 text-center">Welcome to Our Hostel</h1>
+        <p class="lead text-center">Explore the beauty and comfort of our hostel.</p>
+
+        <!-- Hostel Videos Section -->
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="video-card">
+                    <div class="video-embed">
+                        <!-- Paste video URL here -->
+                        <div class="tenor-gif-embed" data-postid="16142812" data-share-method="host" data-aspect-ratio="1.38528" data-width="100%"><a href="https://tenor.com/view/roomforrentindubai-bedspaceindubai-hotel-gif-16142812">Roomforrentindubai Bedspaceindubai GIF</a>from <a href="https://tenor.com/search/roomforrentindubai-gifs">Roomforrentindubai GIFs</a></div>
+                        <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+                    </div>
+                    <div class="video-card-body">
+                        <h5 class="video-title"><i class="fas fa-video"></i> </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="video-card">
+                    <div class="video-embed">
+                        <!-- Paste video URL here -->
+                        <div class="tenor-gif-embed" data-postid="3668368000188964272" data-share-method="host" data-aspect-ratio="1.76471" data-width="100%"><a href="https://tenor.com/view/entering-to-hostel-after-quarantine-hostel-entery-vijay-gif-3668368000188964272">Entering To Hostel.Gif GIF</a>from <a href="https://tenor.com/search/entering+to+hostel-gifs">Entering To Hostel GIFs</a></div>
+                        <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+                    </div>
+                    <div class="video-card-body">
+                        <h5 class="video-title"><i class="fas fa-video"></i> When come back...!😫</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="video-card">
+                    <div class="video-embed">
+                        <!-- Paste video URL here -->
+                        <div class="tenor-gif-embed" data-postid="19418639" data-share-method="host" data-aspect-ratio="1.81818" data-width="100%"><a href="https://tenor.com/view/hostel-gif-19418639">Hostel GIF</a>from <a href="https://tenor.com/search/hostel-gifs">Hostel GIFs</a></div>
+                        <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+                    </div>
+                    <div class="video-card-body">
+                        <h5 class="video-title"><i class="fas fa-video"></i> Inside Masti...!😜</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Content About Hostel -->
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <h2>Discover Our Hostel</h2>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-info-circle"></i> Modern Facilities</h5>
+                        <p class="card-text">Our hostel offers modern facilities including spacious rooms, Wi-Fi access, recreational areas, and more.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-map-marker-alt"></i> Prime Location</h5>
+                        <p class="card-text">Located in a prime location, our hostel provides easy access to nearby attractions and public transportation.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-check-circle"></i> Perfect Choice</h5>
+                        <p class="card-text">Whether you're a student or a traveler, our hostel is the perfect choice for your stay.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Bootstrap JS and jQuery Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

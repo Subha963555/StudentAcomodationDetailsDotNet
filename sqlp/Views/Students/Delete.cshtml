@@ -1,0 +1,95 @@
+@model sqlp.Models.Students
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delete - NewMongo</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/NewMongo.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #495057;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            margin-top: 50px;
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h4 {
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .btn-danger {
+            background-color: #dc3545;
+            border: none;
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+            .btn-danger:hover {
+                background-color: #c82333;
+            }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            border: none;
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+            .btn-secondary:hover {
+                background-color: #5a6268;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h4>Delete</h4>
+        <hr />
+        <div class="row">
+            <div class="col-md-4">
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Name)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Name)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Email)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Email)
+                    </dd>
+                </dl>
+                <form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

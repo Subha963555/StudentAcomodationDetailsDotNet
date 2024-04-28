@@ -1,0 +1,61 @@
+﻿<Properties StartupConfiguration="{A026EA8F-3D91-4FCE-9BB0-4F8F62CC9705}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.sqlp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="sqlp/Controllers/StudentController.cs">
+    <Files>
+      <File FileName="sqlp/Data/ApplicationDbContext.cs" />
+      <File FileName="sqlp/appsettings.Development.json" />
+      <File FileName="sqlp/Program.cs" />
+      <File FileName="sqlp/appsettings.json" />
+      <File FileName="sqlp/Models/Students.cs" />
+      <File FileName="sqlp/Migrations/20240425132727_Students.cs" />
+      <File FileName="sqlp/Controllers/HomeController.cs" />
+      <File FileName="sqlp/Views/Home/Index.cshtml" />
+      <File FileName="sqlp/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="sqlp/Views/Shared/_LoginPartial.cshtml" />
+      <File FileName="sqlp/Views/Shared/_Layout.cshtml" />
+      <File FileName="sqlp/Views/Shared/_Layout.cshtml.css" />
+      <File FileName="sqlp/Views/Students/Edit.cshtml.cs" />
+      <File FileName="sqlp/Views/Students/Edit.cshtml" />
+      <File FileName="sqlp/Views/Students/Delete.cshtml" />
+      <File FileName="sqlp/Views/Students/home.cshtml" />
+      <File FileName="sqlp/Views/Students/Prospector.cshtml" />
+      <File FileName="sqlp/Models/ErrorViewModel.cs" />
+      <File FileName="sqlp/Views/Students/MessDetails.cshtml" />
+      <File FileName="sqlp/Views/Students/Mess.cshtml" />
+      <File FileName="sqlp/Controllers/StudentController.cs" Line="5" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="sqlp" expanded="True">
+            <Node name="sqlp" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="StudentController.cs" selected="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True" />
+                <Node name="Students" expanded="True">
+                  <Node name="Delete.cshtml" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="Images" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

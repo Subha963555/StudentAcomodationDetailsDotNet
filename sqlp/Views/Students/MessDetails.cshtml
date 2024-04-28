@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <!-- Add Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Add Font Awesome CSS for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #495057;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .card {
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+            .card:hover {
+                transform: scale(1.05);
+            }
+
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            color: #007bff;
+        }
+
+        .card-text {
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="mt-5 text-center">Hostel Mess Details</h1>
+        <p class="lead text-center">Explore our delicious food options.</p>
+
+        <!-- Food Mess Details Section -->
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-utensils"></i> Breakfast Package - ₹500</h5>
+                        <p class="card-text">Enjoy our delicious breakfast options including cereals, bread, eggs, fruits, and beverages.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-utensils"></i> Lunch Package - ₹750</h5>
+                        <p class="card-text">Indulge in our hearty lunch meals featuring a variety of cuisines and dishes.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-utensils"></i> Dinner Package - ₹1000</h5>
+                        <p class="card-text">Savor our delicious dinner options including soups, salads, main courses, and desserts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu Section -->
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <h2>Menu</h2>
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Cereal Bowl - ₹100</li>
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Omelette - ₹150</li>
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Pancakes - ₹120</li>
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Salad - ₹180</li>
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Chicken Curry - ₹240</li>
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Pasta - ₹210</li>
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Dessert - ₹120</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Additional Content Section -->
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <h2>Additional Content</h2>
+                <p>This section can include additional information about the hostel mess, such as special offers, chef's recommendations, dietary options, etc.</p>
+                <p>Special offers: Avail special discounts on group bookings.</p>
+                <p>Chef's recommendations: Don't miss our chef's special dish of the day.</p>
+                <p>Dietary options: We offer vegetarian, vegan, and gluten-free options to accommodate all dietary preferences.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Bootstrap JS and jQuery Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Accommodation Management</title>
+    <!-- Add Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Add Font Awesome CSS for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #495057;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f2f2f2;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .jumbotron {
+            background-color: #fff;
+            padding: 30px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        .lead {
+            font-size: 1.25rem;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+
+        .feature-box {
+            margin-top: 30px;
+        }
+
+            .feature-box .col-md-4 {
+                margin-bottom: 30px;
+            }
+
+        .feature-icon {
+            font-size: 3rem;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f8f9fa;
+            color: #070505;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Image hover effect */
+        .fimg {
+            height: 300px;
+            overflow: hidden;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+            .fimg img {
+                width: 100%;
+                height: auto;
+                transition: transform 0.3s ease;
+            }
+
+            .fimg:hover {
+                transform: scale(1.05);
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Student Accommodation Management</h1>
+    </header>
+    <div class="container">
+        <div class="jumbotron">
+            <h2>Welcome to Student Accommodation</h2>
+            <p class="lead">Explore our comfortable and convenient accommodation options for students.</p>
+            <div class="fimg">
+                <img src="https://www.hb.se/globalassets/global/international-office/rekryteringwebb/accomodation.jpg?format=webp&width=1600&rmode=min" alt="Student Accommodation Image">
+            </div>
+        </div>
+        <div class="row feature-box">
+            <div class="col-md-4">
+                <i class="feature-icon fas fa-bed"></i>
+                <h3>Comfortable Beds</h3>
+                <p>Enjoy a good night's sleep with our comfortable bed options available in all rooms.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="feature-icon fas fa-wifi"></i>
+                <h3>High-Speed Internet</h3>
+                <p>Stay connected with high-speed internet access available throughout the accommodation.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="feature-icon fas fa-utensils"></i>
+                <h3>Meal Plans</h3>
+                <p>Choose from a variety of meal plans to suit your dietary preferences and requirements.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Add Bootstrap JS and Popper.js Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
